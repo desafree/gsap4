@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*,*::after,*::before{padding: 0; margin: 0; box-sizing: border-box;}
+
+html{font-size: 62.5%;}
+
+body{font-family: "Poppins", sans-serif; font-weight: 400; font-size: 16px; color: #333333; line-height: 20px;}
+
+.container{height: 680px; width: 320px;overflow: hidden; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); }
+.container .menu{position: absolute; top: 20px; left: 20px;}
+.container .user{position: absolute; top: 20px; right: 20px;}
+.container .front-img{width: 50%; position: absolute; top: 35%; left: 50%; transform: translate(-50%,-50%);}
+.container .front-title{position: absolute; top: 65%; left: 50%; transform: translate(-50%,-50%);}
+.container .front-text{text-align: center; position: absolute; top: 70%; left: 50%; transform: translateX(-50%); width: 80%;}
+.container .button-cart{position: absolute; top: 92%; left: 50%; background-color: black; transform: translate(-50%,-50%); height: 50px; width: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center;}
+
+
+.container .back-img{position: absolute; top: -30%; width: 100%;}
+.container .back-title{position: absolute; top: 40%; left: -50%; font-size: 26px; color: white; font-weight: 600;}
+.container .back-text{position: absolute; top: 47%; left: -50%; color: white; width: 80%; transform: translateX(-50%);}
+.container .arrow-back{position: absolute; bottom: -40px; left: 40px; width: 40px; height: 40px; border-radius: 50%; border: 2px solid white; display: flex; justify-content: center;align-items: center;}
